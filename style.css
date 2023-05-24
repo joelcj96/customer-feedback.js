@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+span{
+    color: rgb(65, 65, 233);
+}
+
+
+#username{
+    margin: 10px 0px;
+    padding: 10px 7px;
+    border-radius: 4px;
+    font-size: 17px;
+    box-shadow: rgb(118, 79, 246) 10px 15px 15px;
+}
+
+#feedback{
+    padding: 7px;
+    margin-right: 3px;
+    font-size: 18px;
+    box-shadow: rgb(91, 91, 246) 18px 16px 14px;
+}
+
+#btn{
+    margin: 29px 0px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    background-color: rgb(98, 217, 201);
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(99, 112, 213);
+    padding: 8px 25px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+
+.success {
+    border: 3px solid rgb(15, 125, 15);
+    border-radius: 6px;
+    background-color: rgb(167, 255, 167);
+    text-align: center;
+    padding: 16px 5px;
+}
+
+.error{
+    border: 3px solid rgb(167, 16, 16);
+    border-radius: 6px;
+    background-color: rgb(255, 205, 205);
+    text-align: center;
+    padding: 16px 7px;
+}
+
+ /*#p {
+    background-color: rgb(135, 250, 169);
+    padding: 10px 170px;
+}
+*/
+
+.accepted{
+   border: 2px solid rgb(93, 245, 93);
+}
+
+.wrong{
+    border: 2px solid rgb(246, 76, 76);
+}
